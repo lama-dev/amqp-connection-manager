@@ -92,5 +92,8 @@
     "bugs": {
         "url": "https://github.com/jwalton/node-amqp-connection-manager/issues"
     },
-    "homepage": "https://github.com/jwalton/node-amqp-connection-manager"
+    "homepage": "https://github.com/jwalton/node-amqp-connection-manager",
+    "release": {
+        "branches": ["main"]
+    }
 }
