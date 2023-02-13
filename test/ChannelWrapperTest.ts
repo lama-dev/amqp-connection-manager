@@ -588,7 +588,7 @@ describe('ChannelWrapper', function () {
         });
     });
 
-    it('should proxy assertQueue, assertExchange, bindQueue, unbindQueue to the underlying channel', function () {
+    it('should proxy assertQueue, assertExchange, bindQueue and unbindQueue to the underlying channel', function () {
         connectionManager.simulateConnect();
         const channelWrapper = new ChannelWrapper(connectionManager);
         return channelWrapper.waitForConnect().then(function () {
