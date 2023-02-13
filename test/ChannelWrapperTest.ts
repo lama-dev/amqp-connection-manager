@@ -585,7 +585,6 @@ describe('ChannelWrapper', function () {
             channelWrapper.checkExchange('fish');
             expect(channel.checkExchange).to.have.beenCalledTimes(1);
             expect(channel.checkExchange).to.have.beenCalledWith('fish');
-            
         });
     });
 
