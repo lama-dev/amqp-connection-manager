@@ -94,6 +94,20 @@
     },
     "homepage": "https://github.com/jwalton/node-amqp-connection-manager",
     "release": {
-        "branches": ["main"]
+        "branches": [
+            "+([0-9])?(.{+([0-9]),x}).x",
+            "master",
+            "main",
+            "next",
+            "next-major",
+            {
+                "name": "beta",
+                "prerelease": true
+            },
+            {
+                "name": "alpha",
+                "prerelease": true
+            }
+        ]
     }
 }
